@@ -1,0 +1,30 @@
+body {
+  background: #3d3d3d;
+}
+
+.controllers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: space-between;
+}
+
+.button {
+  margin: 0 5px;
+}
+
+.button:hover i {
+  color: #CCCCCC;
+}
+
+.button:active i {
+  color: #888888;
+}
+
+.button i {
+  color: white;
+}
+
+#play-pause-button i {
+  font-size: 40px;
+}
