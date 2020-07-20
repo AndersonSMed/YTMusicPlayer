@@ -15,8 +15,11 @@
         "https://music.youtube.com/*"
       ],
       "js": [
-        "scripts/yt-music.js",
-        "scripts/content.js" 
+        "scripts/constants.js",
+        "scripts/utils.js",
+        "scripts/content_scripts/button_manager.js",
+        "scripts/content_scripts/music_info_manager.js",
+        "scripts/content_scripts/tab_manager.js"
       ]
     }
   ],
